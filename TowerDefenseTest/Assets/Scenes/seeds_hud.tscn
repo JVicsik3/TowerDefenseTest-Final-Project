@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cvr3g823egurh"]
+
+[ext_resource type="PackedScene" uid="uid://fwfgpooxll84" path="res://Assets/Scenes/seeds_icon.tscn" id="1_vs0tt"]
+
+[node name="SeeedsHUD" type="Node2D"]
+
+[node name="SeedsIcon" parent="." instance=ExtResource("1_vs0tt")]

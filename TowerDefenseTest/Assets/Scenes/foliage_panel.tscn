@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://brgtnjdto4dqv"]
+
+[ext_resource type="PackedScene" uid="uid://v8r1scqb1umu" path="res://Assets/Scenes/foliage_icon.tscn" id="1_ca70d"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="FoliageIcon" parent="." instance=ExtResource("1_ca70d")]
+position = Vector2(63, 8)
+
+[node name="FoliageIconStatic" parent="." instance=ExtResource("1_ca70d")]
+position = Vector2(63, 8)

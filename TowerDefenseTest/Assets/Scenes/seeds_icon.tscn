@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=3 uid="uid://fwfgpooxll84"]
+
+[ext_resource type="Texture2D" uid="uid://b3xxp386f01yp" path="res://Assets/Graphics/ASE Files/Seed.png" id="1_yftvl"]
+
+[node name="SeedsIcon" type="Node2D"]
+
+[node name="SeedSprite" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 1
+position = Vector2(8, 8)
+texture = ExtResource("1_yftvl")
+
+[node name="SeedsText" type="Node2D" parent="."]
+position = Vector2(9.395, 4)
+scale = Vector2(0.5, 0.5)
+
+[node name="Divider" type="Label" parent="SeedsText"]
+texture_filter = 1
+texture_repeat = 1
+offset_left = 16.0
+offset_top = -5.0
+offset_right = 21.0
+offset_bottom = 18.0
+text = ":
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="SeedsText"]
+texture_filter = 1
+texture_repeat = 1
+offset_left = 23.0
+offset_top = -4.0
+offset_right = 69.0
+offset_bottom = 19.0
+text = "10000"
+clip_text = true
+metadata/_edit_use_anchors_ = true

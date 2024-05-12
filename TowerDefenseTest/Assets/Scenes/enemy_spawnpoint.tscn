@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://chokabrhhjjws"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wy4ov"]
+size = Vector2(16, 16)
+
+[node name="EnemySpawnpoint" type="Node2D"]
+
+[node name="spawner1" type="Area2D" parent="."]
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner1"]
+shape = SubResource("RectangleShape2D_wy4ov")
+
+[node name="spawner2" type="Area2D" parent="."]
+position = Vector2(0, 16)
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner2"]
+shape = SubResource("RectangleShape2D_wy4ov")
+
+[node name="spawner3" type="Area2D" parent="."]
+position = Vector2(0, 32)
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner3"]
+shape = SubResource("RectangleShape2D_wy4ov")
+
+[node name="spawner4" type="Area2D" parent="."]
+position = Vector2(0, 48)
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner4"]
+shape = SubResource("RectangleShape2D_wy4ov")
+
+[node name="spawner5" type="Area2D" parent="."]
+position = Vector2(0, 64)
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner5"]
+shape = SubResource("RectangleShape2D_wy4ov")
+
+[node name="spawner6" type="Area2D" parent="."]
+position = Vector2(0, 80)
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner6"]
+shape = SubResource("RectangleShape2D_wy4ov")
+
+[node name="spawner7" type="Area2D" parent="."]
+position = Vector2(0, 96)
+
+[node name="spawner_shape" type="CollisionShape2D" parent="spawner7"]
+shape = SubResource("RectangleShape2D_wy4ov")

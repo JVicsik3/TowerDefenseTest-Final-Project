@@ -1,0 +1,100 @@
+[gd_scene load_steps=13 format=3 uid="uid://bmdfptcu0sroc"]
+
+[ext_resource type="Texture2D" uid="uid://c2cbw7f5yhvsv" path="res://Assets/Graphics/ASE Files/Fish.png" id="1_dqvad"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrvbn"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fotvd"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(128, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fm4j4"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gc8gy"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrnq0"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g8vyt"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yriks"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tdccb"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5f21"]
+atlas = ExtResource("1_dqvad")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hwjm4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrvbn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fotvd")
+}],
+"loop": true,
+"name": &"Attack",
+"speed": 3.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fm4j4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gc8gy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrnq0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g8vyt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yriks")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tdccb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5f21")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f0k6p"]
+size = Vector2(8, 13)
+
+[node name="Tree" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(2, 0)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+texture_filter = 1
+texture_repeat = 1
+position = Vector2(-1, 0)
+sprite_frames = SubResource("SpriteFrames_hwjm4")
+animation = &"Attack"
+autoplay = "Walk"
+frame_progress = 0.0386471
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-2, 1.5)
+shape = SubResource("RectangleShape2D_f0k6p")

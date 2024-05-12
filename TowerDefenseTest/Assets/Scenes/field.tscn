@@ -1,0 +1,228 @@
+[gd_scene load_steps=2 format=3 uid="uid://cjnt5u8akiwqp"]
+
+[ext_resource type="PackedScene" uid="uid://cr3icd80k1u7x" path="res://Assets/Scenes/field_tile.tscn" id="1_m01vq"]
+
+[node name="Field" type="Node2D"]
+
+[node name="Row 1" type="Node2D" parent="."]
+
+[node name="Field Tile 1" parent="Row 1" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 1" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
+
+[node name="Row 2" type="Node2D" parent="."]
+position = Vector2(0, 16)
+
+[node name="Field Tile 1" parent="Row 2" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 2" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
+
+[node name="Row 3" type="Node2D" parent="."]
+position = Vector2(0, 32)
+
+[node name="Field Tile 1" parent="Row 3" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 3" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
+
+[node name="Row 4" type="Node2D" parent="."]
+position = Vector2(0, 48)
+
+[node name="Field Tile 1" parent="Row 4" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 4" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
+
+[node name="Row 5" type="Node2D" parent="."]
+position = Vector2(0, 64)
+
+[node name="Field Tile 1" parent="Row 5" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 5" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
+
+[node name="Row 6" type="Node2D" parent="."]
+position = Vector2(0, 80)
+
+[node name="Field Tile 1" parent="Row 6" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 6" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
+
+[node name="Row 7" type="Node2D" parent="."]
+position = Vector2(0, 96)
+
+[node name="Field Tile 1" parent="Row 7" instance=ExtResource("1_m01vq")]
+
+[node name="Field Tile 2" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(16, 7.62939e-06)
+
+[node name="Field Tile 3" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(32, 7.62939e-06)
+
+[node name="Field Tile 4" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(48, 7.62939e-06)
+
+[node name="Field Tile 5" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(64, 7.62939e-06)
+
+[node name="Field Tile 6" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(80, 7.62939e-06)
+
+[node name="Field Tile 7" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(96, 7.62939e-06)
+
+[node name="Field Tile 8" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(112, 7.62939e-06)
+
+[node name="Field Tile 9" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(128, 7.62939e-06)
+
+[node name="Field Tile 10" parent="Row 7" instance=ExtResource("1_m01vq")]
+position = Vector2(144, 7.62939e-06)
